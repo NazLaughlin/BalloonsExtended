@@ -7,7 +7,8 @@ namespace BalloonsExtended.Items{
     [AutoloadEquip(EquipType.Balloon)]
     public class ObsidianHorseshoeBundle : ModItem{
         public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Allows triple jump, increases jump hight, and negates fall damage, and grants immunity to fire blocks.");
+            DisplayName.SetDefault("Bundle of Balloons Type OH");
+			Tooltip.SetDefault("Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.");
 		}
         public override void SetDefaults() {
             item.width = 14;

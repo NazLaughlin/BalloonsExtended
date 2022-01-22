@@ -1,3 +1,8 @@
-Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons. Allows you to have all of the balloon options at once.
+Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons.
 
-I plan on giving the same treatment to all the balloons and making new bundles when I have time.
+Currently adds 2 items:
+
+Horseshoe Bundle of Balloons - Combines lucky horseshoe and bundle of balloons
+Obsidian Horseshoe Bundle of Balloons - Combines bundle of balloons and obsidian horseshoe
+
+I plan on expanding the obisidian horseshoe to individual balloons and possibly creating new bundles with all of the balloons once I have time.
