@@ -1,0 +1,3 @@
+displayName = Balloons Extended
+author = Ebal
+version = 0.1
