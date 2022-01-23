@@ -1,8 +1,14 @@
 Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons.
 
-Currently adds 2 items:
+Currently adds 5 items:
 
 Horseshoe Bundle of Balloons - Combines lucky horseshoe and bundle of balloons
 Obsidian Horseshoe Bundle of Balloons - Combines bundle of balloons and obsidian horseshoe
+Obsidian Horseshoe variant for the 3 main horseshoe balloons
 
-I plan on expanding the obisidian horseshoe to individual balloons and possibly creating new bundles with all of the balloons once I have time.
+I plan to expand obsidian horseshoe coverage and possibly create a new bundle type when I have time.
+
+Changelog:
+
+v1.1
+-Added OH Type for White, Blue, and Yellow Balloons
