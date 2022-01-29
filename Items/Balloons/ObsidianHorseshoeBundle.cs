@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using Terraria;
 using Terraria.Localization;
 
-namespace BalloonsExtended.Items{
+namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class ObsidianHorseshoeBundle : ModItem{
         public override void SetStaticDefaults() {

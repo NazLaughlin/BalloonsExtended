@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 
-namespace BalloonsExtended.Items{
+namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class BlueBalloonOH : ModItem{
         public override void SetStaticDefaults() {

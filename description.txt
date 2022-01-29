@@ -1,14 +1,18 @@
 Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons.
 
-Currently adds 5 items:
+Currently adds 8 items:
 
 Horseshoe Bundle of Balloons - Combines lucky horseshoe and bundle of balloons
 Obsidian Horseshoe Bundle of Balloons - Combines bundle of balloons and obsidian horseshoe
-Obsidian Horseshoe variant for the 3 main horseshoe balloons
+Obsidian Horseshoe variant for all 6 of the balloon accessories. (Named "<Color> Balloon Type OH")
 
-I plan to expand obsidian horseshoe coverage and possibly create a new bundle type when I have time.
+I plan to create new balloon bundles when I have time.
 
 Changelog:
+
+v1.2
+-Added OH Type for Amber, Green, and Pink Balloons
+-Made Eye of Cthulu drop shiny red balloons. They are tasty and plentiful in the sky.
 
 v1.1
 -Added OH Type for White, Blue, and Yellow Balloons
