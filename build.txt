@@ -1,4 +1,4 @@
 displayName = Balloons Extended
-author = ElGranGerezim
-version = 1.2
+author = Dot
+version = 1.4
 homepage = https://forums.terraria.org/index.php?threads/balloons-extended.110548/

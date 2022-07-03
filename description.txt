@@ -1,14 +1,21 @@
 Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons.
 
-Currently adds 8 items:
+Currently adds 11 items:
 
 Horseshoe Bundle of Balloons - Combines lucky horseshoe and bundle of balloons
-Obsidian Horseshoe Bundle of Balloons - Combines bundle of balloons and obsidian horseshoe
-Obsidian Horseshoe variant for all 6 of the balloon accessories. (Named "<Color> Balloon Type OH")
+Exotic Bundle of Balloons - Bundle of Balloons, but made with Honey, Tsunami, and Fart balloons
+Exotic Horseshot Bundle - Above, but horseshoe
+Obsidian Horseshoe variant for all 6 of the balloon accessories and both bundles. (Named "<Color> Balloon Type OH" or "(Exotic) Bundle of Balloons Type OH")
 
-I plan to create new balloon bundles when I have time.
+New ambition is to combine both bundles into one for a mega bundle.
 
 Changelog:
+
+v1.4
+-Added Exotic bundle and its variants (Bundle of Balloons, but made with Pink, Amber, and Green Balloons)
+
+v1.3
+-Updated Mod for 1.4
 
 v1.2
 -Added OH Type for Amber, Green, and Pink Balloons
