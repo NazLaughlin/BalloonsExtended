@@ -6,9 +6,9 @@ namespace BalloonsExtended
 {
     public class BalloonGlobalNPC : GlobalNPC
     {
-        public override void NPCLoot(NPC npc){
+        public override void OnKill(NPC npc){
             if (npc.type == NPCID.EyeofCthulhu && !Main.expertMode && Main.rand.Next(1,4) == 3) {
-				Item.NewItem(npc.getRect(), ItemID.ShinyRedBalloon, 1);
+				Item.NewItem(npc.GetSource_Loot(), npc.getRect(), ItemID.ShinyRedBalloon, 1);
 			}
         }
     } 

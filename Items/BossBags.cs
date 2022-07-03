@@ -12,7 +12,7 @@ namespace BalloonsExtended.Items
 			// Typically you'll also want to also add an item to the non-expert boss drops, that code can be found in ExampleGlobalNPC.NPCLoot. Use this and that to add drops to bosses.
 			if (context == "bossBag" && arg == ItemID.EyeOfCthulhuBossBag) {
                 if (Main.rand.Next(1,4) == 3){
-				    player.QuickSpawnItem(ItemID.ShinyRedBalloon, 1);
+				    player.QuickSpawnItem(player.GetSource_OpenItem(ItemID.EyeOfCthulhuBossBag), ItemID.ShinyRedBalloon, 1);
                 }
 			}
 		}
