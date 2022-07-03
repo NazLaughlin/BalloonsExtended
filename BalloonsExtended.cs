@@ -30,6 +30,27 @@ namespace BalloonsExtended
 				ItemID.WhiteHorseshoeBalloon,
             });
             RecipeGroup.RegisterGroup("BalloonsExtended:CloudBalloons", cloudBalloons);
+
+            RecipeGroup honeyBalloons = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Honey Balloon", new int[]
+            {
+                ItemID.HoneyBalloon,
+                ItemID.BalloonHorseshoeHoney,
+            });
+            RecipeGroup.RegisterGroup("BalloonsExtended:HoneyBalloons", honeyBalloons);
+
+            RecipeGroup fartBalloons = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Fart Balloon", new int[]
+            {
+                ItemID.FartInABalloon,
+                ItemID.BalloonHorseshoeFart,
+            });
+            RecipeGroup.RegisterGroup("BalloonsExtended:FartBalloons", fartBalloons);
+
+            RecipeGroup sharkronBalloons = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Sharkron Balloon", new int[]
+            {
+                ItemID.SharkronBalloon,
+                ItemID.BalloonHorseshoeSharkron,
+            });
+            RecipeGroup.RegisterGroup("BalloonsExtended:SharkronBalloons", sharkronBalloons);
         }
 	}
 }
