@@ -10,9 +10,6 @@ I plan to create new balloon bundles when I have time.
 
 Changelog:
 
-v1.3
--Updated Mod for 1.4
-
 v1.2
 -Added OH Type for Amber, Green, and Pink Balloons
 -Made Eye of Cthulu drop shiny red balloons. They are tasty and plentiful in the sky.

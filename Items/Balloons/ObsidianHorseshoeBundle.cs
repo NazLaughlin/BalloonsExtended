@@ -11,32 +11,34 @@ namespace BalloonsExtended.Items.Balloons{
 			Tooltip.SetDefault("Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.");
 		}
         public override void SetDefaults() {
-            Item.width = 14;
-            Item.height = 28;
-            Item.accessory = true;
-            Item.value = 150000;
-            Item.rare = ItemRarityID.Red;
+            item.width = 14;
+            item.height = 28;
+            item.accessory = true;
+            item.value = 150000;
+            item.rare = 10;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.hasJumpOption_Cloud = true;
-            player.hasJumpOption_Sandstorm = true;
-            player.hasJumpOption_Blizzard = true;
+			player.doubleJumpCloud = true;
+            player.doubleJumpSandstorm = true;
+            player.doubleJumpBlizzard = true;
             player.jumpBoost = true;
             player.noFallDmg = true;
             player.fireWalk = true;
         }
         public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(Mod.Find<ModItem>("HorseshoeBundle").Type, 1);
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(mod.ItemType("HorseshoeBundle"), 1);
             recipe.AddIngredient(ItemID.ObsidianSkull, 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
-			recipe.Register();
-            recipe = CreateRecipe();
+			recipe.SetResult(this);
+			recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.BundleofBalloons, 1);
             recipe.AddIngredient(ItemID.ObsidianHorseshoe, 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
-			recipe.Register();
+			recipe.SetResult(this);
+			recipe.AddRecipe();
 		}
     }
 }

@@ -10,42 +10,46 @@ namespace BalloonsExtended.Items.Balloons{
 			Tooltip.SetDefault("Allows quad jump, increases jump hight, and negates fall damage.");
 		}
         public override void SetDefaults() {
-            Item.width = 14;
-            Item.height = 28;
-            Item.accessory = true;
-            Item.value = 150000;
-            Item.rare = ItemRarityID.Cyan;
+            item.width = 14;
+            item.height = 28;
+            item.accessory = true;
+            item.value = 150000;
+            item.rare = 9;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.hasJumpOption_Cloud = true;
-            player.hasJumpOption_Sandstorm = true;
-            player.hasJumpOption_Blizzard = true;
+			player.doubleJumpCloud = true;
+            player.doubleJumpSandstorm = true;
+            player.doubleJumpBlizzard = true;
             player.jumpBoost = true;
             player.noFallDmg = true;
         }
 
         public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe();
+			ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.BundleofBalloons, 1);
             recipe.AddIngredient(ItemID.LuckyHorseshoe, 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
-			recipe.Register();
-            recipe = CreateRecipe();
+			recipe.SetResult(this);
+			recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.BlueHorseshoeBalloon);
             recipe.AddRecipeGroup("BalloonsExtended:SandBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:CloudBalloons");
-            recipe.Register();
-            recipe = CreateRecipe();
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.YellowHorseshoeBalloon);
             recipe.AddRecipeGroup("BalloonsExtended:BlizzardBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:CloudBalloons");
-            recipe.Register();
-            recipe = CreateRecipe();
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.WhiteHorseshoeBalloon);
             recipe.AddRecipeGroup("BalloonsExtended:SandBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:BlizzardBalloons");
-            recipe.Register();
+            recipe.SetResult(this);
+            recipe.AddRecipe();
 		}
     }
 }
