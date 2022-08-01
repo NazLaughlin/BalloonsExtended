@@ -15,7 +15,7 @@ namespace BalloonsExtended.Items.Balloons{
             item.height = 28;
             item.accessory = true;
             item.value = 150000;
-            item.rare = 10;
+            item.rare = ItemRarityID.Cyan;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
 			player.doubleJumpCloud = true;
