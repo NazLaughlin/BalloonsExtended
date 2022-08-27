@@ -5,7 +5,7 @@ using Terraria.Localization;
 
 namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
-    public class ObsidianHorseshoeBundle : ModItem{
+    public class ExoticObsidianHorseshoeBundle : ModItem{
         public override void SetStaticDefaults() {
             DisplayName.SetDefault("Bundle of Balloons Type OH");
 			Tooltip.SetDefault("Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.");
@@ -27,13 +27,13 @@ namespace BalloonsExtended.Items.Balloons{
         }
         public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(Mod.Find<ModItem>("HorseshoeBundle").Type, 1);
+			Recipe recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticObsidianHorseshoeBundle>(), 1);
+            recipe.AddIngredient(ModContent.ItemType<Items.Balloons.ExoticHorseshoeBundle>(), 1);
             recipe.AddIngredient(ItemID.ObsidianSkull, 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
-            recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.BundleofBalloons, 1);
+            recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticObsidianHorseshoeBundle>(), 1);
+            recipe.AddIngredient(ModContent.ItemType<Items.Balloons.ExoticBundle>(), 1);
             recipe.AddIngredient(ItemID.ObsidianHorseshoe, 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();

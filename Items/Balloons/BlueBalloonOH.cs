@@ -12,14 +12,14 @@ namespace BalloonsExtended.Items.Balloons{
                 + "\n Grants immunity to fire blocks");
 		}
         public override void SetDefaults() {
-            item.width = 20;
-            item.height = 22;
-            item.accessory = true;
-            item.value = 45000;
-            item.rare = ItemRarityID.Pink;
+            Item.width = 20;
+            Item.height = 22;
+            Item.accessory = true;
+            Item.value = 45000;
+            Item.rare = ItemRarityID.Pink;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-            player.doubleJumpBlizzard = true;
+            player.hasJumpOption_Blizzard = true;
             player.jumpBoost = true;
             player.noFallDmg = true;
             player.fireWalk = true;
@@ -27,18 +27,16 @@ namespace BalloonsExtended.Items.Balloons{
 
         public override void AddRecipes() 
 		{
-			ModRecipe recipe = new ModRecipe(mod);
+			Recipe recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.BlueBalloonOH>(), 1);
             recipe.AddIngredient(ItemID.BlizzardinaBalloon, 1);
             recipe.AddIngredient(ItemID.ObsidianHorseshoe, 1);
             recipe.AddTile(TileID.TinkerersWorkbench);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
-            recipe = new ModRecipe(mod);
+            recipe.Register();
+            recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.BlueBalloonOH>(), 1);
             recipe.AddIngredient(ItemID.BlueHorseshoeBalloon, 1);
             recipe.AddIngredient(ItemID.ObsidianSkull, 1);
             recipe.AddTile(TileID.TinkerersWorkbench);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
+            recipe.Register();
 		}
     }
 }

@@ -29,22 +29,22 @@ namespace BalloonsExtended.Items.Balloons{
 
         public override void AddRecipes() 
 		{
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(Mod.Find<ModItem>("ExoticBundle").Type, 1);
+            Recipe recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticHorseshoeBundle>(), 1);
+            recipe.AddIngredient(ModContent.ItemType<Items.Balloons.ExoticBundle>(), 1);
             recipe.AddIngredient(ItemID.LuckyHorseshoe, 1);
             recipe.AddTile(TileID.TinkerersWorkbench);
             recipe.Register();
-            recipe = CreateRecipe();
+            recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticHorseshoeBundle>(), 1);
             recipe.AddIngredient(ItemID.BalloonHorseshoeHoney, 1);
             recipe.AddRecipeGroup("BalloonsExtended:FartBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:SharkronBalloons");
             recipe.Register();
-            recipe = CreateRecipe();
+            recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticHorseshoeBundle>(), 1);
             recipe.AddIngredient(ItemID.BalloonHorseshoeFart);
             recipe.AddRecipeGroup("BalloonsExtended:SharkronBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:HoneyBalloons");
             recipe.Register();
-            recipe = CreateRecipe();
+            recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticHorseshoeBundle>(), 1);
             recipe.AddIngredient(ItemID.BalloonHorseshoeSharkron);
             recipe.AddRecipeGroup("BalloonsExtended:HoneyBalloons");
             recipe.AddRecipeGroup("BalloonsExtended:FartBalloons");

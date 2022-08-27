@@ -27,7 +27,7 @@ namespace BalloonsExtended.Items.Balloons{
 
         public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe();
+			Recipe recipe = Recipe.Create(ModContent.ItemType<Items.Balloons.ExoticBundle>(), 1);
             recipe.AddIngredient(ItemID.SharkronBalloon, 1);
             recipe.AddIngredient(ItemID.HoneyBalloon, 1);
             recipe.AddIngredient(ItemID.FartInABalloon, 1);

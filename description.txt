@@ -1,15 +1,22 @@
 Mod inspired by my angst that I couldn't put a horseshoe on bundle of balloons.
 
-Currently adds 11 items:
+Currently adds 15 items:
 
 Horseshoe Bundle of Balloons - Combines lucky horseshoe and bundle of balloons
 Exotic Bundle of Balloons - Bundle of Balloons, but made with Honey, Tsunami, and Fart balloons
 Exotic Horseshot Bundle - Above, but horseshoe
-Obsidian Horseshoe variant for all 6 of the balloon accessories and both bundles. (Named "<Color> Balloon Type OH" or "(Exotic) Bundle of Balloons Type OH")
+ULTIMATE Bundle of Balloons - All 6 balloons in a single accesssory slot
+ULTIMATE Horseshoe Bundle of Balloons - Making the above useable, since 99% of the time you'll just die w/o horseshoe using this thing.
+Obsidian Horseshoe variant for all 7 of the balloon accessories and all 3 bundles. (Named "<Color> Balloon Type OH" or "(Exotic/Ultimate) Bundle of Balloons Type OH")
 
-New ambition is to combine both bundles into one for a mega bundle.
+If you have any balloon related ideas to contribute, comment below. I've done everything I set out to do.
 
 Changelog:
+
+v1.5
+-Added ULTIMATE BUNDLE OF BALLOONS. You can now hold all 6 in a single hand. (Includes H and OH types as well)
+-Updated all code to replace depreciated functions/hooks with their replacements
+	-This fixed a bug where a very specific set of balloons would craft into a stack of 5172 bundles. 
 
 v1.4
 -Added Exotic bundle and its variants (Bundle of Balloons, but made with Pink, Amber, and Green Balloons)
