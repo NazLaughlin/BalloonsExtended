@@ -5,10 +5,10 @@ using Terraria.ID;
 
 namespace BalloonsExtended
 {
-	public class BalloonsExtended : Mod
+	public class BalloonsExtended : ModSystem
 	{
-		// The Terraria.Localization using directive (using Terraria.Localization;) is required for Language methods.
-        public override void AddRecipeGroups()/* tModPorter Note: Removed. Use ModSystem.AddRecipeGroups */
+        // The Terraria.Localization using directive (using Terraria.Localization;) is required for Language methods.
+        public override void AddRecipeGroups()
         {
             RecipeGroup blizzardBalloons = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Blue Balloon", new int[]
             {
