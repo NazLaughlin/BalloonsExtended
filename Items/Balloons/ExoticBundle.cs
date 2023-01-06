@@ -1,6 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
+using Terraria.GameContent.Creative;
 
 namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
@@ -10,7 +11,8 @@ namespace BalloonsExtended.Items.Balloons{
 			Tooltip.SetDefault("Allows the holder to triple jump,\n" +
                 "Increases jump hight,\n" +
                 "and releases bees when damaged.");
-		}
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+        }
         public override void SetDefaults() {
             Item.width = 14;
             Item.height = 28;

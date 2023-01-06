@@ -1,6 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
+using Terraria.GameContent.Creative;
 
 namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
@@ -10,7 +11,8 @@ namespace BalloonsExtended.Items.Balloons{
 			Tooltip.SetDefault("Allows the holder to double jump" 
                 + "\n Increases jump height and negates fall damage"
                 + "\n Grants immunity to fire blocks");
-		}
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+        }
         public override void SetDefaults() {
             Item.width = 20;
             Item.height = 22;

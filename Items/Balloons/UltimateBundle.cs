@@ -1,6 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
+using Terraria.GameContent.Creative;
 
 namespace BalloonsExtended.Items.Balloons {
     [AutoloadEquip(EquipType.Balloon)]
@@ -12,6 +13,7 @@ namespace BalloonsExtended.Items.Balloons {
                 "and releases bees when damaged.\n\n" +
                 "-Every balloon, in the palm of your hand.\n"+
                 "   Try not to kill yourself");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults () {
             Item.width = 14;

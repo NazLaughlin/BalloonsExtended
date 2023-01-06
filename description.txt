@@ -17,6 +17,7 @@ v1.5
 -Added ULTIMATE BUNDLE OF BALLOONS. You can now hold all 6 in a single hand. (Includes H and OH types as well)
 -Updated all code to replace depreciated functions/hooks with their replacements
 	-This fixed a bug where a very specific set of balloons would craft into a stack of 5172 bundles. 
+-Made all balloons and bundles researchable in Journey mode.
 
 v1.4
 -Added Exotic bundle and its variants (Bundle of Balloons, but made with Pink, Amber, and Green Balloons)

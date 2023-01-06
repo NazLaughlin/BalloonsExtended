@@ -1,6 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
+using Terraria.GameContent.Creative;
 
 namespace BalloonsExtended.Items.Balloons {
     [AutoloadEquip(EquipType.Balloon)]
@@ -12,6 +13,7 @@ namespace BalloonsExtended.Items.Balloons {
                 "Negates fall damage,\n" +
                 "and releases bees when damaged.\n\n" +
                 "~We have improved the ultimate bundle, but we can do better.");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults () {
             Item.width = 14;

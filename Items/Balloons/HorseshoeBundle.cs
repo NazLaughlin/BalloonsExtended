@@ -1,6 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
+using Terraria.GameContent.Creative;
 
 namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
@@ -8,7 +9,9 @@ namespace BalloonsExtended.Items.Balloons{
         public override void SetStaticDefaults() {
             DisplayName.SetDefault("Bundle of Balloons Type H");
 			Tooltip.SetDefault("Allows quad jump, increases jump hight, and negates fall damage.");
-		}
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+        }
         public override void SetDefaults() {
             Item.width = 14;
             Item.height = 28;
