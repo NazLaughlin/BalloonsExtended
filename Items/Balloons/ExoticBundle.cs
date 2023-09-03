@@ -7,10 +7,6 @@ namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class ExoticBundle : ModItem{
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Exotic Bundle of Balloons");
-			Tooltip.SetDefault("Allows the holder to triple jump,\n" +
-                "Increases jump hight,\n" +
-                "and releases bees when damaged.");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults() {

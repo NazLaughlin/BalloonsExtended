@@ -7,12 +7,6 @@ namespace BalloonsExtended.Items.Balloons {
     [AutoloadEquip(EquipType.Balloon)]
     public class UltimateBundle:ModItem {
         public override void SetStaticDefaults () {
-            DisplayName.SetDefault("Ultimate Bundle of Balloons");
-            Tooltip.SetDefault("Gives the holder 5 extra jumps,\n" +
-                "Increases jump hight,\n" +
-                "and releases bees when damaged.\n\n" +
-                "-Every balloon, in the palm of your hand.\n"+
-                "   Try not to kill yourself");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults () {

@@ -7,8 +7,6 @@ namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class HorseshoeBundle : ModItem{
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Bundle of Balloons Type H");
-			Tooltip.SetDefault("Allows quad jump, increases jump hight, and negates fall damage.");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 
         }

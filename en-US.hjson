@@ -1,0 +1,141 @@
+
+Mods: {
+	BalloonsExtended: {
+		Items: {
+			AmberBalloonOH: {
+				DisplayName: Amber Balloon Type OH
+				Tooltip:
+					'''
+					Releases Bees when damaged
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+
+			BlueBalloonOH: {
+				DisplayName: Blue Balloon Type OH
+				Tooltip:
+					'''
+					Allows the holder to double jump
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+
+			ExoticBundle: {
+				DisplayName: Exotic Bundle of Balloons
+				Tooltip:
+					'''
+					Allows the holder to triple jump,
+					Increases jump hight,
+					and releases bees when damaged.
+					'''
+			}
+
+			ExoticHorseshoeBundle: {
+				DisplayName: Exotic Horseshoe Bundle of Balloons
+				Tooltip:
+					'''
+					Allows the holder to triple jump,
+					Increases jump hight,
+					Negates fall damage,
+					and releases bees when damaged.
+					'''
+			}
+
+			ExoticObsidianHorseshoeBundle: {
+				DisplayName: Bundle of Balloons Type OH
+				Tooltip: Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+			}
+
+			GreenBalloonOH: {
+				DisplayName: Green Balloon Type OH
+				Tooltip:
+					'''
+					Allows the holder to double jump
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+
+			HorseshoeBundle: {
+				DisplayName: Bundle of Balloons Type H
+				Tooltip: Allows quad jump, increases jump hight, and negates fall damage.
+			}
+
+			ObsidianHorseshoeBundle: {
+				DisplayName: Bundle of Balloons Type OH
+				Tooltip: Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+			}
+
+			PinkBalloonOH: {
+				DisplayName: Pink Balloon Type OH
+				Tooltip:
+					'''
+					Allows the holder to double jump
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+
+			UltimateBundle: {
+				DisplayName: Ultimate Bundle of Balloons
+				Tooltip:
+					'''
+					Gives the holder 5 extra jumps,
+					Increases jump hight,
+					and releases bees when damaged.
+
+					-Every balloon, in the palm of your hand.
+					   Try not to kill yourself
+					'''
+			}
+
+			UltimateBundleOH: {
+				DisplayName: Ultimate Bundle of Balloons Type OH
+				Tooltip:
+					'''
+					Gives the holder 5 extra jumps,
+					Increases jump hight,
+					Negates fall damage,
+					and releases bees when damaged.
+
+					>The final evolution, you cannot make a better bundle of balloons.
+					'''
+			}
+
+			UltimateHorseshoeBundle: {
+				DisplayName: Ultimate Horseshoe Bundle of Balloons
+				Tooltip:
+					'''
+					Gives the holder 5 extra jumps,
+					Increases jump hight,
+					Negates fall damage,
+					and releases bees when damaged.
+
+					~We have improved the ultimate bundle, but we can do better.
+					'''
+			}
+
+			WhiteBalloonOH: {
+				DisplayName: White Balloon Type OH
+				Tooltip:
+					'''
+					Allows the holder to double jump
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+
+			YellowBalloonOH: {
+				DisplayName: Yellow Balloon Type OH
+				Tooltip:
+					'''
+					Allows the holder to double jump
+					 Increases jump height and negates fall damage
+					 Grants immunity to fire blocks
+					'''
+			}
+		}
+	}
+}

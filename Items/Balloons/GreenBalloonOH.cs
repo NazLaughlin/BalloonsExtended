@@ -7,10 +7,6 @@ namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class GreenBalloonOH : ModItem{
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Green Balloon Type OH");
-			Tooltip.SetDefault("Allows the holder to double jump" 
-                + "\n Increases jump height and negates fall damage"
-                + "\n Grants immunity to fire blocks");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults() {

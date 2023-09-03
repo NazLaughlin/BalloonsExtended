@@ -7,12 +7,6 @@ namespace BalloonsExtended.Items.Balloons {
     [AutoloadEquip(EquipType.Balloon)]
     public class UltimateHorseshoeBundle:ModItem {
         public override void SetStaticDefaults () {
-            DisplayName.SetDefault("Ultimate Horseshoe Bundle of Balloons");
-            Tooltip.SetDefault("Gives the holder 5 extra jumps,\n" +
-                "Increases jump hight,\n" +
-                "Negates fall damage,\n" +
-                "and releases bees when damaged.\n\n" +
-                "~We have improved the ultimate bundle, but we can do better.");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults () {

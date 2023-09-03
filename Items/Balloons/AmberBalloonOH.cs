@@ -7,10 +7,6 @@ namespace BalloonsExtended.Items.Balloons{
     [AutoloadEquip(EquipType.Balloon)]
     public class AmberBalloonOH : ModItem{
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Amber Balloon Type OH");
-			Tooltip.SetDefault("Releases Bees when damaged" 
-                + "\n Increases jump height and negates fall damage"
-                + "\n Grants immunity to fire blocks");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         public override void SetDefaults() {
