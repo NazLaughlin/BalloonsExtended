@@ -10,8 +10,12 @@ ULTIMATE Horseshoe Bundle of Balloons - Making the above useable, since 99% of t
 Obsidian Horseshoe variant for all 7 of the balloon accessories and all 3 bundles. (Named "<Color> Balloon Type OH" or "(Exotic/Ultimate) Bundle of Balloons Type OH")
 
 If you have any balloon related ideas to contribute, comment below. I've done everything I set out to do.
+If you want to translate to any languages feel free to send me the .hjson and I'll add it in.
 
 Changelog:
+
+v1.6
+-Migrated to terraria 1.4.4
 
 v1.5
 -Added ULTIMATE BUNDLE OF BALLOONS. You can now hold all 6 in a single hand. (Includes H and OH types as well)
