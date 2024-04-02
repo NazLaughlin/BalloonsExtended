@@ -14,6 +14,11 @@ If you want to translate to any languages feel free to send me the .hjson and I'
 
 Changelog:
 
+v1.6.3
+-Fixed some descriptions of balloons not listing all of the effects.
+	-Ultimate Bundle didn't say it granted fire block immunity
+	-Added some fun b/c why not (Definately not forshadowing for an idea i have...)
+
 v1.6.2
 -Added a recipe for the whoopee cushion to make getting fart in a jar more consistent.
 

@@ -8,6 +8,7 @@ Mods: {
 					Releases Bees when damaged
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+					 [c/990000:FLAME RESISTANT BEES. A TRUE TERROR.]
 					'''
 			}
 
@@ -18,6 +19,7 @@ Mods: {
 					Allows the holder to double jump
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+					 [c/ffff66:Did we ever figure out why white clouds turn red balloons blue?]
 					'''
 			}
 
@@ -28,6 +30,7 @@ Mods: {
 					Allows the holder to triple jump,
 					Increases jump hight,
 					and releases bees when damaged.
+					[c/ff99ff:I don't know why they left all these cool balloons out, but I'll play with them!]
 					'''
 			}
 
@@ -39,12 +42,15 @@ Mods: {
 					Increases jump hight,
 					Negates fall damage,
 					and releases bees when damaged.
+					[c/ffff66: I can't believe she did this. Well, if it's here, might as well optimize it.]
 					'''
 			}
 
 			ExoticObsidianHorseshoeBundle: {
 				DisplayName: Bundle of Balloons Type OH
-				Tooltip: Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+				Tooltip: '''Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+				[c/990000:I can't believe these might actually be useful for something.]
+				'''
 			}
 
 			GreenBalloonOH: {
@@ -54,17 +60,20 @@ Mods: {
 					Allows the holder to double jump
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+					 [c/ffff66:I still don't understand why we have to make this. Who even likes this balloon?]
 					'''
 			}
 
 			HorseshoeBundle: {
 				DisplayName: Bundle of Balloons Type H
-				Tooltip: Allows quad jump, increases jump hight, and negates fall damage.
+				Tooltip: '''Allows quad jump, increases jump hight, and negates fall damage.
+				[c/990000:I KNEW IT WAS POSSIBLE]'''
 			}
 
 			ObsidianHorseshoeBundle: {
 				DisplayName: Bundle of Balloons Type OH
-				Tooltip: Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+				Tooltip: '''Allows quad jump, increases jump hight, negates fall damage, and grants immunity to fire blocks.
+				[c/990000:AS SHOULD HAVE ALWAYS BEEN ALLOWED]'''
 			}
 
 			PinkBalloonOH: {
@@ -74,6 +83,8 @@ Mods: {
 					Allows the holder to double jump
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+
+					 [c/ffff66:Ya know, all of these remind me of ][c/ff99ff:her]
 					'''
 			}
 
@@ -85,8 +96,8 @@ Mods: {
 					Increases jump hight,
 					and releases bees when damaged.
 
-					-Every balloon, in the palm of your hand.
-					   Try not to kill yourself
+					[c/fb8989:-Every ][c/f8f472:balloon], [c/ff635d:in ][c/ff4d44:the ][c/ff3329:palm ][c/ff0000:of ]your [c/331111:hand]
+					      [c/FFFF66:Careful], [c/990000:Icarus.]
 					'''
 			}
 
@@ -100,7 +111,7 @@ Mods: {
 					Grants immunity to fire blocks
 					and releases bees when damaged.
 
-					>The final evolution, you cannot make a better bundle of balloons.
+					[c/990000:>The final evolution, you cannot make a better bundle of balloons][c/1400ee:...][c/221133:unless?]
 					'''
 			}
 
@@ -112,8 +123,7 @@ Mods: {
 					Increases jump hight,
 					Negates fall damage,
 					and releases bees when damaged.
-
-					~We have improved the ultimate bundle, but we can do better.
+					[c/1400ee:~We ][c/0069a1:have imp][c/00789f:roved ][c/0087ac:the u][c/0098bd:ltimat][c/00a9cd:e bundl][c/00bdd7:e, but we][c/00d2dc: can ][c/00ffd1:do ][c/990000:better]
 					'''
 			}
 
@@ -124,6 +134,8 @@ Mods: {
 					Allows the holder to double jump
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+
+					 [c/999999:The string is slightly frosted.]
 					'''
 			}
 
@@ -134,6 +146,8 @@ Mods: {
 					Allows the holder to double jump
 					 Increases jump height and negates fall damage
 					 Grants immunity to fire blocks
+
+					 [c/FFFF66:Tastes like dirt, but more dry.] 
 					'''
 			}
 		}
