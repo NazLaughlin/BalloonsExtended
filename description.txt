@@ -14,6 +14,12 @@ If you want to translate to any languages feel free to send me the .hjson and I'
 
 Changelog:
 
+v1.6.2
+-Added a recipe for the whoopee cushion to make getting fart in a jar more consistent.
+
+v1.6.1
+-Fixed after tmod extra jumps update.
+
 v1.6
 -Migrated to terraria 1.4.4
 

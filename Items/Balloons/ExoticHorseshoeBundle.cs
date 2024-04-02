@@ -17,8 +17,8 @@ namespace BalloonsExtended.Items.Balloons{
             Item.rare = ItemRarityID.Yellow;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.hasJumpOption_Fart = true;
-            player.hasJumpOption_Sail = true;
+            player.GetJumpState(ExtraJump.FartInAJar).Enable();
+            player.GetJumpState(ExtraJump.TsunamiInABottle).Enable();
             player.honeyCombItem = Item;
             player.jumpBoost = true;
             player.noFallDmg = true;

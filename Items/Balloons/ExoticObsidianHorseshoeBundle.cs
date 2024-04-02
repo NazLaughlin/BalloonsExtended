@@ -18,9 +18,9 @@ namespace BalloonsExtended.Items.Balloons{
             Item.rare = ItemRarityID.Cyan;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.hasJumpOption_Cloud = true;
-            player.hasJumpOption_Sandstorm = true;
-            player.hasJumpOption_Blizzard = true;
+			player.GetJumpState(ExtraJump.CloudInABottle).Enable();
+            player.GetJumpState(ExtraJump.SandstormInABottle).Enable();
+            player.GetJumpState(ExtraJump.BlizzardInABottle).Enable();
             player.jumpBoost = true;
             player.noFallDmg = true;
             player.fireWalk = true;

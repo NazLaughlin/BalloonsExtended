@@ -17,7 +17,7 @@ namespace BalloonsExtended.Items.Balloons{
             Item.rare = ItemRarityID.Pink;
 		}
         public override void UpdateAccessory(Player player, bool hideVisual) {
-            player.hasJumpOption_Fart = true;
+            player.GetJumpState(ExtraJump.FartInAJar).Enable();
             player.jumpBoost = true;
             player.noFallDmg = true;
             player.fireWalk = true;
